@@ -12,6 +12,7 @@ body {
 header {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .main {
@@ -32,12 +33,12 @@ header {
 
 .sqr {
   border: 1px solid lightgray;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin: 2px;
   background: white;
   border-radius: 2px;
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 3px 3px 3px #888888;
 }
 
 .row1, .row2, .row3 {
