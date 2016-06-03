@@ -1,0 +1,59 @@
+@import url("./_reset.css")
+
+{}
+
+body {
+  box-sizing: content-box;
+  font-family: Helvetica;
+  font-weight: bolder;
+  background: floralwhite;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sqr {
+  border: 1px solid lightgray;
+  height: 80px;
+  width: 80px;
+  margin: 2px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.row1, .row2, .row3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+}
+
+.player2 {
+  background: lightpink;
+}
+
+.player1 {
+  background: lightblue;
+}
